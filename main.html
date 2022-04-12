@@ -6,6 +6,28 @@
     <link rel="stylesheet" href="jquery-ui.min.css">
     <script src="external/jquery/jquery.js"></script>
     <script src="jquery-ui.min.js"></script>
+    <style media="screen">
+      table{
+        width: 100%;
+        text-align: center;
+        /*border-collapse: collapse;*/
+      }
+      th{
+        border: 1px solid #555555;
+        border-radius: 5%;
+        padding: 1%;
+        box-shadow: 3px 3px #555555;
+        background-color: #aaaaaa;
+        /*opacity: 0.3;*/
+      }
+      tr{
+        /*border: 1px solid #555555;*/
+        border-radius: 5%;
+        background-color: ababab;
+        /*box-shadow: */
+        padding: 1%;
+      }
+    </style>
     <title>LifeMap</title>
   </head>
   <body>
@@ -27,8 +49,27 @@
     <main>
       <div class="board-box">
         <h1>LifeMap</h1>
-        <div class="task-box-outter">
+        <div style="padding: 1% 1%;background: #aaaaaa;" class="task-box-outter">
           <div class="task-box-inner">
+            <div id="task1" class="task-list">
+              <table>
+                <th>PerScholas</th>
+                <tr>
+                  <td>Work on SBA</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>Work on interview questions</td>
+                  <td></td>
+                </tr>
+              </table>
+            </div>
+            <div id="task2" class="task-list">
+
+            </div>
+            <div id="task3" class="task-list">
+
+            </div>
           </div>
         </div>
       </div>
