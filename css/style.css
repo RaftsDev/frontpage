@@ -47,3 +47,13 @@ footer{
   background-color: #bfbfbf;
   opacity: 0.75;
 }
+
+.task-box-outter{
+  height: 73vh;
+  width: 47%;
+  margin: 0 auto;
+  border: 1px solid ;border-radius: 3%;
+  box-shadow: 5px 5px #555555;
+
+
+}
