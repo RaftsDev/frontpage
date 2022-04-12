@@ -27,3 +27,22 @@ background-position: center;
   transition-property: : font-size;
   transition-duration: 2s;
 }
+
+main{
+  height: 85vh;
+  text-align: center;
+  /*background-color: #bfbfbf;*/
+}
+
+footer{
+  text-align: right;
+}
+
+.board-box{
+  display: inline-block;
+  width: 75%;
+  margin: 1% 0%;
+  text-align: center;
+  background-color: #bfbfbf;
+  opacity: 0.75;
+}
