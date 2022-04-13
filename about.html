@@ -23,32 +23,37 @@
   </ul>
 </nav>
     <main>
-      <div class="board-box">
-        <h1>About us:</h1>
-  <div style="margin:1% 0% 2% 0%;" class="description-box">
-    Our company located in Pittsburgh, PA.
-    We glad to respond you back for any request )))
-  </div>
-  <div class="form-box">
-
-    <form action="/action_page.php">
-      <div style="width:50%; margin:0 auto;">
-        <div style="display:inline-block; text-align:left;" class="inner-box-form">
-          <label for="fname">First name:</label>
-          <input type="text" id="fname" name="fname"><br><br>
-          <label for="lname">Last name:</label>
-          <input type="text" id="lname" name="lname"><br><br>
-          <label for="email">Email:</label>
-          <input type="email" id="email" name="email"><br><br>
+      <form action="/action_page.php">
+    <div class="mb-3 mt-3">
+      <div class="row w-25 mx-auto my-1">
+        <div class="col">
+          <input type="text" class="form-control" id="fName" placeholder="Enter first name" name="fNAme">
         </div>
       </div>
-      <textarea id="msg" name="msg" rows="5" cols="50">
-      </textarea><br><br>
-      <input type="submit" value="Submit">
-    </form>
-  </div>
+      <div class="row w-25 mx-auto my-1">
+        <div class="col">
+          <input type="text" class="form-control" id="lName" placeholder="Enter last name" name="lNAme">
+        </div>
       </div>
+      <!--label for="email" class="form-label">Email:</label-->
+      <div class="row w-25 mx-auto my-1">
+        <div class="col">
+          <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+        </div>
+      </div>
+    </div>
+    <!--div class="mb-3">
+      <label for="pwd" class="form-label">Password:</label>
+      <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+    </div-->
+<div class="row">
+  <textarea class="form-control w-25 mx-auto my-1" rows="5" id="comment" placeholder="Text message to us )))"name="text"></textarea>
+</div>
+    <div class="row mx-auto my-1 w-25">
+        <button type="submit" class="btn btn-primary mx-auto">Submit</button>
+    </div>
 
+  </form>
     </main>
     <footer>&copy raftsdev 2022</footer>
   </body>
